@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bé tập tính</title>
+	<link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+	
+</head>
+
+<body>
+	<div class="container-fluid">
+		<div class="row">
+		
+			<div class="col-md-3">
+			</div>
+			
+			<div class="col-md-6 main bodymain">
+				<h1>Bé tập tính</h1>
+				
+				<div class="container-fluid">
+				
+					<div class="row">
+						<div class="col-md-9">
+							
+							<form>
+								<div class="Number">Số thứ nhất<input onmouseleave="checkValueInput();" class="form-control" text="text" id="Number1"></div>
+								<div class="Number">Số thứ hai<input onmouseleave="checkValueInput();" class="form-control" text="text" id="Number2"></div>
+								<div class="Number">Kết quả<input class="form-control" text="text" id="Result" name="Number"></div>
+							</form>
+							
+							<input id="btnCalc" class="btn btn-success" type="button" value="Tính" onclick="Handle();"/>
+							<div>Thông báo: <span id="notification"></span></div>
+							
+						</div>
+						
+						<div class="col-md-3">
+							<form class="rdOperator">
+								<div class="rdbtndiv"><input class="rdbtn" type="radio" name="gender" value="male">Cộng</div>
+								<div class="rdbtndiv"><input class="rdbtn" type="radio" name="gender" value="female">Trừ</div>
+								<div class="rdbtndiv"><input class="rdbtn" type="radio" name="gender" value="other">Nhân</div>
+								<div class="rdbtndiv"><input class="rdbtn" type="radio" name="gender" value="other">Chia</div>
+							</form>
+							
+						</div>
+					</div>
+				</div>
+			</div>			
+					
+			<div class="col-md-3">
+			</div>
+		</div>			
+	</div>
+    
+	<script src="solve.js">	
+	</script>
+
+</body>
+</html>

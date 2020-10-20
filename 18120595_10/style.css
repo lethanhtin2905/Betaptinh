@@ -1,0 +1,63 @@
+.main{
+	/* background: blue; */
+	border-style: solid;
+	margin-top: 50px;
+	border-radius:10px;
+	padding: 10px 0;
+}
+
+.textNumber{
+	width: 100px;
+}
+
+.bodymain{
+	font-family: 'Frank Ruhl Libre', serif;
+	background: #ebc1c1;
+}
+
+.Number{
+	/* background: red; */
+	margin: 10px 0;
+	height: 30px;
+	padding: auto;
+}
+
+.Number input{
+	float: right;
+	width: 60%;
+}
+
+#RadioButton{
+	/* background: red; */
+	
+	margin: 10px 0;
+}
+
+#RadioButton input{
+	margin: 5px;
+}
+
+#RadioButton div{
+	height: 30px;
+	display: inline;
+}
+
+#btnCalc{
+	float: right;
+}
+
+.rdbtndiv{
+	width: 100px;
+}
+
+
+.rdbtn{
+	margin: 10px 0;
+	display: inline;
+	margin: 0 10px;
+}
+
+.rdOperator{
+	text-align: left;
+	margin-top:  0;
+}
